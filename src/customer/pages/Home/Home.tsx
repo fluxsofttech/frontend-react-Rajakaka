@@ -46,7 +46,7 @@ const Home = () => {
                 <h1 className='text-lg lg:text-4xl font-bold text-[#00927c] pb-5 lg:pb-20'>SHOP BY CATEGORY</h1>
                 <HomeCategory />
             </section>}
-            <section className='lg:px-20 relative h-[200px] lg:h-[450px] object-cover'>
+            {/* <section className='lg:px-20 relative h-[200px] lg:h-[450px] object-cover'>
                 <img className='w-full h-full' src={"/seller_banner_image.jpg"} alt="" />
                 <div className='absolute top-1/2 left-4 lg:left-[15rem] transform  -translate-y-1/2 font-semibold lg:text-4xl space-y-3 '>
                     <h1 className=''>
@@ -66,7 +66,7 @@ const Home = () => {
 
                 </div>
 
-            </section>
+            </section> */}
 
             <section className='fixed bottom-10 right-10'>
                 {showChatBot ? <ChatBot handleClose={handleCloseChatBot} /> : <Button onClick={handleShowChatBot} sx={{ borderRadius: "2rem" }} variant='contained' className='h-16 w-16  flex justify-center items-center rounded-full'>

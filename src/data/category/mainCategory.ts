@@ -125,7 +125,7 @@ export const mainCategory = [
   { name: "Laptops", categoryId: "electronics",level:1 },
    {
   name: "Speakers",
-  categoryId: "speakers",
+  categoryId: "men",
   level: 1,
   levelTwoCategory: [
     {
